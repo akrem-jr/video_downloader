@@ -1,7 +1,7 @@
-## Video Downloader
+##Video Downloader
 This is a simple Node.js script that allows users to download videos from YouTube. Users can specify the URL of the YouTube video they want to download and the desired output file name.
 
-**Features**
+# Features
 Download YouTube Videos: Users can provide the URL of a YouTube video and download it to their local machine.
 Custom Output File Name: Users can specify the output file name for the downloaded video.
 Easy to Use: The script provides a simple command-line interface for users to input the YouTube video URL and output file name.
