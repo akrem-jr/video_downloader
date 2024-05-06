@@ -1,14 +1,19 @@
-##Video Downloader
+# Video Downloader
+
 This is a simple Node.js script that allows users to download videos from YouTube. Users can specify the URL of the YouTube video they want to download and the desired output file name.
 
-# Features
-Download YouTube Videos: Users can provide the URL of a YouTube video and download it to their local machine.
-Custom Output File Name: Users can specify the output file name for the downloaded video.
-Easy to Use: The script provides a simple command-line interface for users to input the YouTube video URL and output file name.
-**Prerequisites**
-Node.js installed on your machine.
-ytdl-core package installed. You can install it via npm using the command npm install ytdl-core.
-**Usage**
+## Features
+
+- **Download YouTube Videos**: Users can provide the URL of a YouTube video and download it to their local machine.
+- **Custom Output File Name**: Users can specify the output file name for the downloaded video.
+- **Easy to Use**: The script provides a simple command-line interface for users to input the YouTube video URL and output file name.
+
+## Prerequisites
+
+- Node.js installed on your machine.
+- `ytdl-core` package installed. You can install it via npm using the command `npm install ytdl-core`.
+
+## Usage
 
 1. Clone the repository or download the `server.js` file.
 2. Install dependencies by running `npm install ytdl-core`.
@@ -18,7 +23,8 @@ ytdl-core package installed. You can install it via npm using the command npm in
 6. Follow the prompts to input the URL of the YouTube video you want to download and specify the output file name.
 7. Once the download is complete, the video will be saved in the current directory with the specified file name.
 
-**Example**
+## Example
+
 
 $ node server.js
 Enter the URL of the YouTube video: [Enter the URL of the YouTube video]
